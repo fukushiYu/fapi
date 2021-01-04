@@ -1,0 +1,58 @@
+[Unit]
+#%%%
+Description=Fapi_0 Server
+
+[Service]
+# 行程類型
+Type=simple
+
+# 啟動服務指令 %%%
+ExecStart=uvicorn --port 8000 main:app
+
+# 服務行程 PID（通常配合 forking 的服務使用）%%%
+PIDFile=/run/fapi_0.pid
+
+# 啟動服務前，執行的指令
+# ExecStartPre=/opt/your_command
+# 啟動服務後，執行的指令
+# ExecStartPost=/opt/your_command
+# 停止服務指令
+# ExecStop=/opt/your_command
+# 停止服務後，執行的指令
+# ExecStopPost=/opt/your_command
+# 重新載入服務指令
+# ExecReload=/opt/your_command
+
+# 服務終止時自動重新啟動
+Restart=always
+
+# 重新啟動時間格時間（預設為 100ms）
+RestartSec=3s
+# 啟動服務逾時秒數
+# TimeoutStartSec=3s
+# 停止服務逾時秒數
+# TimeoutStopSec=3s
+
+# 執行時的工作目錄 %%%
+WorkingDirectory=/opt/fapi/0
+
+# 執行服務的使用者（名稱或 ID 皆可）
+User=nrk
+
+# 執行服務的群組（名稱或 ID 皆可）
+# User=mygroup
+
+# 環境變數設定
+Environment="NLS_LANG=American_America.UTF8" "ORACLE_HOME=/opt/oracle" "TNS_ADMIN=/opt/oracle" "PATH=$ORACLE_HOME:$PATH"
+
+# 服務輸出訊息導向設定 %%%
+StandardOutput=append:/opt/fapi/0/log/access.log
+
+# 服務錯誤訊息導向設定 %%%
+StandardError=append:/opt/fapi/0/log/access.log
+
+# 設定服務在 Syslog 中的名稱 %%%
+SyslogIdentifier=fapi_0
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2196 @@
+2020/12/04 03:43:01 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [2817]
+2020/12/04 03:43:01 PM Started server process [2817]
+INFO:     Waiting for application startup.
+2020/12/04 03:43:01 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/04 03:43:01 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/04 03:43:01 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/04 03:43:24 PM (O) {"type": "qin0", "id": "639482fe-3604-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:44840 - "GET /ent/qin0?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/04 03:43:56 PM (O) {"type": "qin0", "id": "76d33d88-3604-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123, "message": "我是一片雲"}}
+INFO:     127.0.0.1:44844 - "GET /ent/qin0?params={%22data%22:123,%22message%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/04 03:43:58 PM (O) {"type": "qin0", "id": "78223c3e-3604-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123, "message": "我是一片雲"}}
+INFO:     127.0.0.1:44848 - "GET /ent/qin0?params={%22data%22:123,%22message%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/04 03:44:00 PM (O) {"type": "qin0", "id": "795b5716-3604-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123, "message": "我是一片雲"}}
+INFO:     127.0.0.1:44852 - "GET /ent/qin0?params={%22data%22:123,%22message%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/04 03:44:01 PM (O) {"type": "qin0", "id": "795b5717-3604-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123, "message": "我是一片雲"}}
+INFO:     127.0.0.1:44856 - "GET /ent/qin0?params={%22data%22:123,%22message%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/04 03:44:11 PM (O) APT20-000145 = 1620
+INFO:     127.0.0.1:44860 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/04 03:44:14 PM (O) APT20-000145 = 1620
+INFO:     127.0.0.1:44868 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/04 03:44:16 PM (O) APT20-000145 = 1620
+INFO:     127.0.0.1:44872 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/04 06:00:06 PM (O) APT20-000145 = 1620
+INFO:     127.0.0.1:44876 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/07 03:24:06 PM (X) APT20-000145 is not found
+INFO:     127.0.0.1:44974 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/07 03:58:56 PM (O) APT20-000145 = 1616
+INFO:     127.0.0.1:44982 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/08 01:43:38 PM (O) APT20-000145 = 1616
+INFO:     127.0.0.1:45086 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/08 02:11:47 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:11:47 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:11:47 PM Application shutdown complete.
+INFO:     Finished server process [2817]
+2020/12/08 02:11:47 PM Finished server process [2817]
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 357, in main
+    run(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/main.py", line 381, in run
+    server.run()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 47, in run
+    loop.run_until_complete(self.serve(sockets=sockets))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/_impl/asyncio.py", line 54, in serve
+    config.load()
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/config.py", line 306, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/importer.py", line 20, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 130
+    pstr = json.dumps(pload.ensure_ascii=False)
+                      ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+2020/12/08 02:13:29 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [51671]
+2020/12/08 02:13:29 PM Started server process [51671]
+INFO:     Waiting for application startup.
+2020/12/08 02:13:29 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:13:29 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:13:29 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+2020/12/08 02:14:27 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:14:27 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:14:27 PM Application shutdown complete.
+INFO:     Finished server process [51671]
+2020/12/08 02:14:27 PM Finished server process [51671]
+2020/12/08 02:14:30 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [51696]
+2020/12/08 02:14:30 PM Started server process [51696]
+INFO:     Waiting for application startup.
+2020/12/08 02:14:30 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:14:30 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:14:30 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+2020/12/08 02:15:09 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:15:10 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:15:10 PM Application shutdown complete.
+INFO:     Finished server process [51696]
+2020/12/08 02:15:10 PM Finished server process [51696]
+2020/12/08 02:15:13 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [51732]
+2020/12/08 02:15:13 PM Started server process [51732]
+INFO:     Waiting for application startup.
+2020/12/08 02:15:13 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:15:13 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:15:13 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+2020/12/08 02:15:23 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:15:23 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:15:23 PM Application shutdown complete.
+INFO:     Finished server process [51732]
+2020/12/08 02:15:23 PM Finished server process [51732]
+2020/12/08 02:16:03 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [51788]
+2020/12/08 02:16:03 PM Started server process [51788]
+INFO:     Waiting for application startup.
+2020/12/08 02:16:03 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:16:03 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:16:03 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:16:32 PM (X) eace8240-391c-11eb-ab09-256cd4854ed0 error message::File "./main.py", line 128, in _qin: [NameError] name 'plstr' is not defined.
+INFO:     127.0.0.1:45090 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/08 02:18:04 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:18:04 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:18:04 PM Application shutdown complete.
+INFO:     Finished server process [51788]
+2020/12/08 02:18:04 PM Finished server process [51788]
+2020/12/08 02:18:09 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [51868]
+2020/12/08 02:18:09 PM Started server process [51868]
+INFO:     Waiting for application startup.
+2020/12/08 02:18:09 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:18:09 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:18:09 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:18:14 PM (O) {"data":123}
+INFO:     127.0.0.1:45092 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 02:22:31 PM (O) {"cmd":123}
+INFO:     127.0.0.1:45098 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/08 02:22:39 PM (O) {"cmd":123}
+INFO:     127.0.0.1:45102 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/08 02:22:42 PM (O) {"cmd":123}
+INFO:     127.0.0.1:45104 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/08 02:23:14 PM (X) da5135b0-391d-11eb-ab09-256cd4854ed0 error message::File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode: [JSONDecodeError] Expecting value: line 1 column 1 (char 0).
+INFO:     127.0.0.1:45106 - "GET /qin HTTP/1.0" 200 OK
+2020/12/08 02:23:27 PM (X) e23d6b04-391d-11eb-ab09-256cd4854ed0 error message::File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode: [JSONDecodeError] Expecting value: line 1 column 1 (char 0).
+INFO:     127.0.0.1:45108 - "GET /qin?params HTTP/1.0" 200 OK
+2020/12/08 02:23:39 PM (O) {}
+INFO:     127.0.0.1:45112 - "GET /qin?params={} HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/08 02:33:58 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:33:58 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:33:58 PM Application shutdown complete.
+INFO:     Finished server process [51868]
+2020/12/08 02:33:58 PM Finished server process [51868]
+2020/12/08 02:34:02 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [52038]
+2020/12/08 02:34:02 PM Started server process [52038]
+INFO:     Waiting for application startup.
+2020/12/08 02:34:02 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:34:02 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:34:02 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:45114 - "GET /ent?params={%22data%22:123} HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/protocols/http/h11_impl.py", line 394, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/applications.py", line 190, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 188, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 135, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./main.py", line 102, in _ing
+    fname = config.ifs["IN"] + "/" +id
+TypeError: can only concatenate list (not "str") to list
+2020/12/08 02:34:33 PM Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/protocols/http/h11_impl.py", line 394, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/applications.py", line 190, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 41, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 188, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 135, in run_endpoint_function
+    return await dependant.call(**values)
+  File "./main.py", line 102, in _ing
+    fname = config.ifs["IN"] + "/" +id
+TypeError: can only concatenate list (not "str") to list
+INFO:     Shutting down
+2020/12/08 02:34:47 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 02:34:47 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 02:34:47 PM Application shutdown complete.
+INFO:     Finished server process [52038]
+2020/12/08 02:34:47 PM Finished server process [52038]
+2020/12/08 02:38:27 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [52146]
+2020/12/08 02:38:27 PM Started server process [52146]
+INFO:     Waiting for application startup.
+2020/12/08 02:38:27 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 02:38:27 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 02:38:27 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 03:49:50 PM (O) {"type": "file", "id": "f342b25e-3929-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45136 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 03:49:53 PM (O) {"type": "file", "id": "f500ad44-3929-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45138 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 03:49:55 PM (O) {"type": "file", "id": "f6aa253a-3929-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45142 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/08 03:53:49 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/08 03:53:49 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/08 03:53:49 PM Application shutdown complete.
+INFO:     Finished server process [52146]
+2020/12/08 03:53:49 PM Finished server process [52146]
+2020/12/08 03:54:09 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [53182]
+2020/12/08 03:54:09 PM Started server process [53182]
+INFO:     Waiting for application startup.
+2020/12/08 03:54:09 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/08 03:54:09 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 03:54:09 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/08 03:54:30 PM (O) {"type": "file", "id": "9a3040ae-392a-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45146 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 03:54:33 PM (O) {"type": "file", "id": "9bf5062c-392a-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45150 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 03:54:34 PM (O) {"type": "file", "id": "9bf5062d-392a-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45154 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 03:55:09 PM (O) {"data":123}
+2020/12/08 03:55:09 PM (O) {"type": "redis", "id": "b1a631b2-392a-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45160 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 03:55:13 PM (O) {"data":123}
+2020/12/08 03:55:13 PM (O) {"type": "redis", "id": "b42ab30e-392a-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45166 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+2020/12/08 04:07:02 PM Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+2020/12/08 04:08:44 PM Invalid HTTP request received.
+2020/12/08 04:09:35 PM (O) {"type": "file", "id": "b5f75366-392c-11eb-ab09-256cd4854ed0", "count": 0, "data": {"testdata": 123}}
+INFO:     127.0.0.1:45180 - "GET /ent?params=%7B%22testdata%22:123%7D HTTP/1.0" 200 OK
+2020/12/08 04:09:57 PM (O) {"data":"我是一片雲"}
+2020/12/08 04:09:57 PM (O) {"type": "redis", "id": "c2eaced6-392c-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": "我是一片雲"}}
+INFO:     127.0.0.1:45182 - "GET /qin?params={%22data%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/08 04:10:12 PM (O) {"type": "file", "id": "cbf88ef0-392c-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": "我是一片雲"}}
+INFO:     127.0.0.1:45186 - "GET /ent?params={%22data%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+2020/12/08 04:10:22 PM Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+2020/12/08 04:10:51 PM Invalid HTTP request received.
+2020/12/08 04:18:50 PM (O) {"data":"我是一片雲"}
+2020/12/08 04:18:50 PM (O) {"type": "redis", "id": "0040cd5c-392e-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": "我是一片雲"}}
+INFO:     127.0.0.1:45202 - "GET /qin?params={%22data%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/08 04:20:42 PM (O) {"type": "file", "id": "4374faf8-392e-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45206 - "GET /ent?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 05:02:19 PM (O) {"data":123}
+2020/12/08 05:02:19 PM (O) {"type": "redis", "id": "13d929ee-3934-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45212 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 05:02:20 PM (O) {"data":123}
+2020/12/08 05:02:20 PM (O) {"type": "redis", "id": "13d929ef-3934-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45216 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 05:02:21 PM (O) {"data":123}
+2020/12/08 05:02:21 PM (O) {"type": "redis", "id": "148b5b1e-3934-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": 123}}
+INFO:     127.0.0.1:45220 - "GET /qin?params={%22data%22:123} HTTP/1.0" 200 OK
+2020/12/08 05:03:07 PM (O) {"data":"我是"}
+2020/12/08 05:03:07 PM (O) {"type": "redis", "id": "3009c0c4-3934-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": "我是"}}
+INFO:     127.0.0.1:45226 - "GET /qin?params={%22data%22:%22%E6%88%91%E6%98%AF%22} HTTP/1.0" 200 OK
+2020/12/08 05:13:27 PM (O) {"data":"野中美希"}
+2020/12/08 05:13:27 PM (O) {"type": "redis", "id": "a1fc365c-3935-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": "野中美希"}}
+INFO:     127.0.0.1:45234 - "GET /qin?params={%22data%22:%22%E9%87%8E%E4%B8%AD%E7%BE%8E%E5%B8%8C%22} HTTP/1.0" 200 OK
+2020/12/08 05:19:22 PM (O) {"data":"譜久村聖"}
+2020/12/08 05:19:22 PM (O) {"type": "redis", "id": "75188b6c-3936-11eb-ab09-256cd4854ed0", "count": 0, "data": {"data": "譜久村聖"}}
+INFO:     127.0.0.1:45246 - "GET /qin?params={%22data%22:%22%E8%AD%9C%E4%B9%85%E6%9D%91%E8%81%96%22} HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+2020/12/09 08:55:58 AM Invalid HTTP request received.
+2020/12/09 11:40:27 AM (O) {"cmd":123}
+2020/12/09 11:40:27 AM (O) {"type": "redis", "id": "4730b02c-39d0-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": 123}}
+INFO:     127.0.0.1:45310 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/09 11:40:30 AM (O) {"cmd":123}
+2020/12/09 11:40:30 AM (O) {"type": "redis", "id": "491c9748-39d0-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": 123}}
+INFO:     127.0.0.1:45314 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/09 02:00:49 PM (O) {"cmd":123}
+2020/12/09 02:00:49 PM (O) {"type": "redis", "id": "e344af0a-39e3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": 123}}
+INFO:     127.0.0.1:45330 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/09 02:02:39 PM (O) {"cmd":"我是一片雲"}
+2020/12/09 02:02:39 PM (O) {"type": "redis", "id": "24963c80-39e4-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "我是一片雲"}}
+INFO:     127.0.0.1:45338 - "GET /qin?params={%22cmd%22:%22%E6%88%91%E6%98%AF%E4%B8%80%E7%89%87%E9%9B%B2%22} HTTP/1.0" 200 OK
+2020/12/09 02:03:04 PM (O) {"cmd":"波多野結衣"}
+2020/12/09 02:03:04 PM (O) {"type": "redis", "id": "33abe8aa-39e4-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "波多野結衣"}}
+INFO:     127.0.0.1:45342 - "GET /qin?params={%22cmd%22:%22%E6%B3%A2%E5%A4%9A%E9%87%8E%E7%B5%90%E8%A1%A3%22} HTTP/1.0" 200 OK
+2020/12/09 02:10:29 PM (O) {"cmd":"波多野結衣2"}
+2020/12/09 02:10:29 PM (O) {"type": "redis", "id": "3c908bc8-39e5-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "波多野結衣2"}}
+INFO:     127.0.0.1:45358 - "GET /qin?params={%22cmd%22:%22%E6%B3%A2%E5%A4%9A%E9%87%8E%E7%B5%90%E8%A1%A32%22} HTTP/1.0" 200 OK
+2020/12/09 02:10:41 PM (O) {"cmd":"三上悠亞2"}
+2020/12/09 02:10:41 PM (O) {"type": "redis", "id": "44385cca-39e5-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "三上悠亞2"}}
+INFO:     127.0.0.1:45362 - "GET /qin?params={%22cmd%22:%22%E4%B8%89%E4%B8%8A%E6%82%A0%E4%BA%9E2%22} HTTP/1.0" 200 OK
+2020/12/09 02:21:44 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 02:21:44 PM (O) {"type": "redis", "id": "cf29b242-39e6-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45374 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/09 03:52:10 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/09 03:52:10 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/09 03:52:10 PM Application shutdown complete.
+INFO:     Finished server process [53182]
+2020/12/09 03:52:10 PM Finished server process [53182]
+2020/12/09 03:52:24 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [64964]
+2020/12/09 03:52:24 PM Started server process [64964]
+INFO:     Waiting for application startup.
+2020/12/09 03:52:24 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/09 03:52:24 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/09 03:52:24 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/09 03:52:45 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 03:52:45 PM (O) {"type": "redis", "id": "85e5756e-39f3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45384 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+2020/12/09 03:55:40 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 03:55:40 PM (O) {"type": "redis", "id": "ee2564fe-39f3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45398 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+2020/12/09 03:55:40 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 03:55:40 PM (O) {"type": "redis", "id": "ee2564ff-39f3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45402 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+2020/12/09 03:55:41 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 03:55:41 PM (O) {"type": "redis", "id": "ee256500-39f3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45406 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+2020/12/09 03:55:41 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 03:55:41 PM (O) {"type": "redis", "id": "ee256501-39f3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45410 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+2020/12/09 03:55:42 PM (O) {"cmd":"佐藤優樹統治了一切"}
+2020/12/09 03:55:42 PM (O) {"type": "redis", "id": "ef93931a-39f3-11eb-ab09-256cd4854ed0", "count": 0, "data": {"cmd": "佐藤優樹統治了一切"}}
+INFO:     127.0.0.1:45414 - "GET /qin?params={%22cmd%22:%22%E4%BD%90%E8%97%A4%E5%84%AA%E6%A8%B9%E7%B5%B1%E6%B2%BB%E4%BA%86%E4%B8%80%E5%88%87%22} HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45488 - "GET / HTTP/1.0" 200 OK
+2020/12/10 05:51:59 PM (O) APT20-000145 = 1601
+INFO:     127.0.0.1:45492 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/10 05:53:23 PM (O) {"type": "file", "id": "8aa8f5fa-3acd-11eb-ab09-256cd4854ed0", "count": 0, "data": {"message": "不愛"}}
+INFO:     127.0.0.1:45496 - "GET /ent?params=%7B%22message%22:%22%E4%B8%8D%E6%84%9B%22%7D HTTP/1.0" 200 OK
+2020/12/10 05:56:31 PM (X) APT20-000145 HTTP 1.1 is not found
+INFO:     127.0.0.1:45500 - "GET /qty/APT20-000145%20HTTP%201.1 HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45524 - "GET / HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45528 - "GET / HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45532 - "GET / HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45536 - "GET / HTTP/1.0" 200 OK
+2020/12/11 09:27:11 AM (O) APT20-000145 = 1601
+INFO:     127.0.0.1:45540 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/11 10:10:27 AM (O) APT20-000145 = 1601
+INFO:     127.0.0.1:45544 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/11 10:26:25 AM (O) APT20-000145 = 1601
+INFO:     127.0.0.1:45548 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/11 10:27:50 AM (O) APT20-000145 = 1601
+INFO:     127.0.0.1:45550 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/11 10:32:10 AM (X) 11 is not found
+INFO:     127.0.0.1:45554 - "GET /qty/11 HTTP/1.0" 200 OK
+2020/12/11 10:41:09 AM (O) APT20-000145 = 1601
+INFO:     127.0.0.1:45558 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45568 - "GET /docs HTTP/1.0" 404 Not Found
+2020/12/14 05:00:10 PM (X) 123 is not found
+INFO:     127.0.0.1:45670 - "GET /qty/123 HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/15 08:28:08 AM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/15 08:28:08 AM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/15 08:28:08 AM Application shutdown complete.
+INFO:     Finished server process [64964]
+2020/12/15 08:28:08 AM Finished server process [64964]
+2020/12/15 09:07:11 AM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [1850]
+2020/12/15 09:07:11 AM Started server process [1850]
+INFO:     Waiting for application startup.
+2020/12/15 09:07:11 AM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/15 09:07:11 AM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/15 09:07:11 AM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/15 09:19:19 AM (O) APT20-000145 = 1061
+INFO:     127.0.0.1:36166 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/21 10:24:52 AM (X) ASP20-000145 is not found
+INFO:     127.0.0.1:36360 - "GET /qty/ASP20-000145 HTTP/1.0" 200 OK
+2020/12/21 10:25:36 AM (X) NAT20-000145 is not found
+INFO:     127.0.0.1:36366 - "GET /qty/NAT20-000145 HTTP/1.0" 200 OK
+2020/12/22 12:21:35 PM (O) {"cmd":123}
+2020/12/22 12:21:35 PM (O) {"type": "redis", "id": "2d7681ce-440d-11eb-ad60-3bd3fb7a4548", "count": 0, "data": {"cmd": 123}}
+INFO:     127.0.0.1:36588 - "GET /qin?params={%22cmd%22:123} HTTP/1.0" 200 OK
+2020/12/22 12:59:14 PM (X) 6fc51dec-4412-11eb-ad60-3bd3fb7a4548 error message::File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode: [JSONDecodeError] Expecting value: line 1 column 1 (char 0).
+INFO:     127.0.0.1:36624 - "GET /qin HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 02:26:47 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 02:26:47 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 02:26:47 PM Application shutdown complete.
+INFO:     Finished server process [1850]
+2020/12/22 02:26:47 PM Finished server process [1850]
+2020/12/22 02:27:03 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [78835]
+2020/12/22 02:27:03 PM Started server process [78835]
+INFO:     Waiting for application startup.
+2020/12/22 02:27:03 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 02:27:03 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 02:27:03 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 02:27:34 PM (O) APT20-000145 = 1014
+INFO:     127.0.0.1:36644 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/22 02:27:56 PM (O) APT20-000145 = 1014
+INFO:     127.0.0.1:36650 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/22 02:27:57 PM (O) APT20-000145 = 1014
+INFO:     127.0.0.1:36652 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/22 02:27:58 PM (O) APT20-000145 = 1014
+INFO:     127.0.0.1:36654 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+2020/12/22 02:27:59 PM (O) APT20-000145 = 1014
+INFO:     127.0.0.1:36656 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36660 - "GET /prgry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 404 Not Found
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36662 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36670 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 02:32:04 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 02:32:04 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 02:32:04 PM Application shutdown complete.
+INFO:     Finished server process [78835]
+2020/12/22 02:32:04 PM Finished server process [78835]
+2020/12/22 02:32:09 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [78943]
+2020/12/22 02:32:09 PM Started server process [78943]
+INFO:     Waiting for application startup.
+2020/12/22 02:32:09 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 02:32:09 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 02:32:09 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36676 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 02:34:10 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 02:34:10 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 02:34:10 PM Application shutdown complete.
+INFO:     Finished server process [78943]
+2020/12/22 02:34:10 PM Finished server process [78943]
+2020/12/22 02:34:13 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [79003]
+2020/12/22 02:34:13 PM Started server process [79003]
+INFO:     Waiting for application startup.
+2020/12/22 02:34:13 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 02:34:13 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 02:34:13 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36682 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 02:41:05 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 02:41:05 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 02:41:05 PM Application shutdown complete.
+INFO:     Finished server process [79003]
+2020/12/22 02:41:05 PM Finished server process [79003]
+2020/12/22 02:41:07 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [79098]
+2020/12/22 02:41:07 PM Started server process [79098]
+INFO:     Waiting for application startup.
+2020/12/22 02:41:07 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 02:41:07 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 02:41:07 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36690 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36694 - "GET /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 04:54:06 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 04:54:06 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 04:54:06 PM Application shutdown complete.
+INFO:     Finished server process [79098]
+2020/12/22 04:54:06 PM Finished server process [79098]
+2020/12/22 04:54:14 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [86309]
+2020/12/22 04:54:14 PM Started server process [86309]
+INFO:     Waiting for application startup.
+2020/12/22 04:54:14 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 04:54:14 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 04:54:14 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36702 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 04:56:20 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 04:56:20 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 04:56:20 PM Application shutdown complete.
+INFO:     Finished server process [86309]
+2020/12/22 04:56:20 PM Finished server process [86309]
+2020/12/22 04:56:23 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [86477]
+2020/12/22 04:56:23 PM Started server process [86477]
+INFO:     Waiting for application startup.
+2020/12/22 04:56:23 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 04:56:23 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 04:56:23 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36710 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 04:57:32 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 04:57:32 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 04:57:32 PM Application shutdown complete.
+INFO:     Finished server process [86477]
+2020/12/22 04:57:32 PM Finished server process [86477]
+2020/12/22 04:57:35 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [86577]
+2020/12/22 04:57:35 PM Started server process [86577]
+INFO:     Waiting for application startup.
+2020/12/22 04:57:35 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 04:57:35 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 04:57:35 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36716 - "GET /pgqry/sel?params=[%222020-01-01%2000:00:00%22] HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36720 - "GET /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 05:22:35 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 05:22:35 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 05:22:35 PM Application shutdown complete.
+INFO:     Finished server process [86577]
+2020/12/22 05:22:35 PM Finished server process [86577]
+2020/12/22 05:22:39 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [87883]
+2020/12/22 05:22:39 PM Started server process [87883]
+INFO:     Waiting for application startup.
+2020/12/22 05:22:39 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 05:22:39 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 05:22:39 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36728 - "GET /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/22 05:48:43 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/22 05:48:43 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/22 05:48:43 PM Application shutdown complete.
+INFO:     Finished server process [87883]
+2020/12/22 05:48:43 PM Finished server process [87883]
+2020/12/22 05:48:45 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [88575]
+2020/12/22 05:48:45 PM Started server process [88575]
+INFO:     Waiting for application startup.
+2020/12/22 05:48:45 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/22 05:48:45 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/22 05:48:45 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36734 - "POST /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36738 - "POST /pgqry/sel HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36744 - "POST /pgqryo/sel HTTP/1.0" 404 Not Found
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36746 - "POST /pgqry/sel HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36750 - "POST /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36758 - "POST /pgqry/sel HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36764 - "POST /pgqry/sel HTTP/1.0" 200 OK
+2020/12/23 09:42:15 AM (O) APT20-000145 = 1014
+INFO:     127.0.0.1:36790 - "GET /qty/APT20-000145 HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36798 - "GET /pgqry/sel?params=%22[2020-12-01%2000:00:00]%22 HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36802 - "GET /pgqry/sel?params=[%222020-12-01%2000:00:00%22] HTTP/1.0" 200 OK
+OOO 開啟Postgresql連線
+XXX 關閉Postgresql連線
+INFO:     127.0.0.1:36806 - "GET /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/23 11:26:48 AM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/23 11:26:48 AM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/23 11:26:48 AM Application shutdown complete.
+INFO:     Finished server process [88575]
+2020/12/23 11:26:48 AM Finished server process [88575]
+2020/12/23 11:27:38 AM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [99042]
+2020/12/23 11:27:38 AM Started server process [99042]
+INFO:     Waiting for application startup.
+2020/12/23 11:27:38 AM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/23 11:27:38 AM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/23 11:27:38 AM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36822 - "GET /pgqry/sel?params=[%222020-12-09%2000:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36826 - "GET /pgqry/sel?params=[%222020-12-09%2012:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36832 - "GET /pgqry/sel?params=[%222020-12-09%2012:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36844 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36850 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36872 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36878 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36882 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36894 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36898 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36904 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36910 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36922 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36938 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36952 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36966 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36982 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36996 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37010 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37016 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37028 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37040 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37056 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37068 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37080 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37086 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37090 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37102 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37116 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37128 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37142 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37154 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37164 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37168 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37182 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37198 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37202 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37206 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37222 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37236 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37240 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37256 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37260 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37324 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37328 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37346 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37354 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37364 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37382 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37386 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37390 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37406 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37422 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37426 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37454 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37492 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37500 - "GET / HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37512 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/24 12:21:50 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/24 12:21:50 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/24 12:21:50 PM Application shutdown complete.
+INFO:     Finished server process [99042]
+2020/12/24 12:21:50 PM Finished server process [99042]
+2020/12/24 12:21:54 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [118167]
+2020/12/24 12:21:54 PM Started server process [118167]
+INFO:     Waiting for application startup.
+2020/12/24 12:21:54 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/24 12:21:54 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 12:21:54 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:37528 - "GET /docs HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37530 - "GET /openapi.json HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/24 02:03:01 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/24 02:03:01 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/24 02:03:01 PM Application shutdown complete.
+INFO:     Finished server process [118167]
+2020/12/24 02:03:01 PM Finished server process [118167]
+2020/12/24 02:03:06 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [120352]
+2020/12/24 02:03:06 PM Started server process [120352]
+INFO:     Waiting for application startup.
+2020/12/24 02:03:06 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/24 02:03:06 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:03:06 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+2020/12/24 02:11:06 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/24 02:11:06 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/24 02:11:06 PM Application shutdown complete.
+INFO:     Finished server process [120352]
+2020/12/24 02:11:06 PM Finished server process [120352]
+2020/12/24 02:11:09 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [120449]
+2020/12/24 02:11:09 PM Started server process [120449]
+INFO:     Waiting for application startup.
+2020/12/24 02:11:09 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/24 02:11:09 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:11:09 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:18:35 PM (O) {"itemid": "abc", "qty": 98, "unit_price": 0, "sell_price": 0, "cost": 0}
+2020/12/24 02:18:35 PM (X) daf2547e-45af-11eb-ad60-3bd3fb7a4548 error message::File "/usr/lib/python3.8/json/encoder.py", line 179, in default: [TypeError] Object of type SOLINE is not JSON serializable.
+INFO:     127.0.0.1:37538 - "POST /qin HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37542 - "GET /docs HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37544 - "GET /openapi.json HTTP/1.0" 200 OK
+2020/12/24 02:30:39 PM (O) {"itemid": "abc", "qty": 123, "unit_price": 0, "sell_price": 0, "cost": 0}
+2020/12/24 02:30:39 PM (X) 8a58843c-45b1-11eb-ad60-3bd3fb7a4548 error message::File "/usr/lib/python3.8/json/encoder.py", line 179, in default: [TypeError] Object of type SOLINE is not JSON serializable.
+INFO:     127.0.0.1:37552 - "POST /qin HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/24 02:37:18 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/24 02:37:18 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/24 02:37:18 PM Application shutdown complete.
+INFO:     Finished server process [120449]
+2020/12/24 02:37:18 PM Finished server process [120449]
+2020/12/24 02:37:22 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [120703]
+2020/12/24 02:37:22 PM Started server process [120703]
+INFO:     Waiting for application startup.
+2020/12/24 02:37:22 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/24 02:37:22 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:37:22 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:38:37 PM (O) {"itemid": "abc", "qty": 98, "unit_price": 0, "sell_price": 0, "cost": 0}
+2020/12/24 02:38:37 PM (O) {"type": "redis", "id": "a6f2d0a6-45b2-11eb-ad60-3bd3fb7a4548", "count": 0, "data": {"itemid": "abc", "qty": 98, "unit_price": 0, "sell_price": 0, "cost": 0}}
+INFO:     127.0.0.1:37556 - "POST /qin HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/24 02:41:46 PM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/24 02:41:46 PM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/24 02:41:46 PM Application shutdown complete.
+INFO:     Finished server process [120703]
+2020/12/24 02:41:46 PM Finished server process [120703]
+2020/12/24 02:41:49 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [120778]
+2020/12/24 02:41:49 PM Started server process [120778]
+INFO:     Waiting for application startup.
+2020/12/24 02:41:49 PM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/24 02:41:49 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:41:49 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/24 02:42:42 PM (O) {"itemid": "mizuki", "qty": 98, "unit_price": 154, "sell_price": 0, "cost": 0}
+2020/12/24 02:42:42 PM (O) {"type": "redis", "id": "395d3332-45b3-11eb-ad60-3bd3fb7a4548", "count": 0, "data": {"itemid": "mizuki", "qty": 98, "unit_price": 154, "sell_price": 0, "cost": 0}}
+INFO:     127.0.0.1:37564 - "POST /qin HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37578 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37584 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37600 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37606 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37624 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37640 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37650 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37662 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37666 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37672 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37688 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37692 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37710 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     Shutting down
+2020/12/25 11:15:52 AM Shutting down
+INFO:     Waiting for application shutdown.
+2020/12/25 11:15:52 AM Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2020/12/25 11:15:52 AM Application shutdown complete.
+INFO:     Finished server process [120778]
+2020/12/25 11:15:52 AM Finished server process [120778]
+2020/12/25 11:16:26 AM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [135635]
+2020/12/25 11:16:26 AM Started server process [135635]
+INFO:     Waiting for application startup.
+2020/12/25 11:16:26 AM Waiting for application startup.
+INFO:     Application startup complete.
+2020/12/25 11:16:26 AM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2020/12/25 11:16:26 AM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:37736 - "GET /docs HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37738 - "GET /openapi.json HTTP/1.0" 200 OK
+2020/12/25 11:36:12 AM (O) {"type": "redis", "id": "55a1014a-4662-11eb-ad60-3bd3fb7a4548", "count": 0, "data": {"shpno": "AA12345678", "type": ["店配711", "大電商"], "store": ["門店代收", "STORE_A", "很大的店", "忘了"], "comm": "就是備註文佳瑛像我媽媽年輕的時候", "cmps": 19, "ord": ["CUSTOMER_123", "今田美櫻", "123456789", "home@example"], "rcv": ["今田美櫻", "123456789", "10000", "附近", "home@expmple"], "sum": 200, "line": [["o1", "item_a", 10, 10], ["o2", "item_b", 20, 5]]}}
+INFO:     127.0.0.1:37742 - "POST /qso HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37764 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+2020/12/25 11:40:18 AM (O) {"type": "redis", "id": "e844c824-4662-11eb-ad60-3bd3fb7a4548", "count": 0, "data": {"shpno": "AA12345678", "type": ["店配711", "大電商"], "store": ["門店代收", "STORE_A", "很大的店", "忘了"], "comm": "文佳瑛awsl", "cmps": 19, "ord": ["CUSTOMER_123", "今田美櫻", "123456789", "home@example"], "rcv": ["今田美櫻", "123456789", "10000", "附近", "home@expmple"], "sum": 200, "line": [["o1", "item_a", 10, 10], ["o2", "item_b", 20, 5]]}}
+INFO:     127.0.0.1:37770 - "POST /qso HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37780 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+2021/01/04 02:01:00 PM 
+  ______    __    __   __      ________     __       __   ___   __&    ___      ___   _______  
+ /" _  "\  /" |  | "\ |" \    /"       )   /""\     |/"| /  ") |" \   |"  \    /"  | /"     "| 
+(: ( \___)(:  (__)  :)||  |  (:   \___/   /    \    (: |/   /  ||  |   \   \  //   |(: ______) 
+ \/ \      \/      \/ |:  |   \___  \    /' /\  \   |    __/   |:  |   /\\  \/.    | \/    |   
+ //  \ _   //  __  \\ |.  |    __/  \\  //  __'  \  (// _  \   |.  |  |: \.        | // ___)_  
+(:   _) \ (:  (  )  :)/\  |\  /" \   :)/   /  \\  \ |: | \  \  /\  |\ |.  \    /:  |(:      "| 
+ \_______) \__|  |__/(__\_|_)(_______/(___/    \___)(__|  \__)(__\_|_)|___|\__/|___| \_______) 
+
+INFO:     Started server process [31687]
+2021/01/04 02:01:00 PM Started server process [31687]
+INFO:     Waiting for application startup.
+2021/01/04 02:01:00 PM Waiting for application startup.
+INFO:     Application startup complete.
+2021/01/04 02:01:00 PM Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2021/01/04 02:01:00 PM Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50984 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:50992 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51000 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51010 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51014 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51022 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51030 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51036 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51068 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51072 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
+INFO:     127.0.0.1:51078 - "GET /pgqry/sel?params=[%222020-12-09%2015:00:00%22] HTTP/1.0" 200 OK
